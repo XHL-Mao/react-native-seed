@@ -1,0 +1,11 @@
+{
+  "presets": [ "@babel/preset-env", "react-native" ] ,
+  "plugins": [
+    ["@babel/proposal-decorators", {"legacy": true}],
+    ["@babel/transform-runtime", {
+      "polyfill": false,
+      "regenerator": false,
+      "helpers": true
+    }]
+  ]
+}
